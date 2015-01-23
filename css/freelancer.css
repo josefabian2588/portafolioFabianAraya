@@ -48,7 +48,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f121"; /*CODIGO CSS DEL ICONO */
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #ef7f3f;
 }
 
 header .container {
@@ -442,4 +442,10 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+
+.navbar-default {
+background-color: #50232e;
+border-color: transparent;
 }
